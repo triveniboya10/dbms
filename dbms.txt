@@ -1,0 +1,16 @@
+select SUM(EMPsalary) from employeesalary;
+select AVG(EMPsalary) from employeesalary;
+select MAX(EMPsalary) from employeesalary;
+select MIN(EMPsalary) from employeesalary;
+
+select * from sample
+select TEXT from sample group by TEXT having Count(TEXT) >1
+Create Table SingleFunction(ID int,DecValue Numeric(6,8),INTvalue int)
+insert into SingleFunction(ID ,DecValue ,INTvalue) values(1,100.99,3);
+Create Table SingleFunction(ID int,DecValue Numeric(6,82),INTvalue int)
+insert into SingleFunction(ID ,DecValue ,INTvalue) values(1,1.222232,123);
+select * from SingleFunction;
+select ROUND(DecVlue) from SingleFounction;
+select CEIL(32.43) from dual;
+select CEIL(32.2) from dual;
+select CEIL(-34.64) from dual;
